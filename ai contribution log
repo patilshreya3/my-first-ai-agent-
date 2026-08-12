@@ -1,0 +1,66 @@
+# AI Contribution Log – MiniBot Chatbot
+
+## Project Name
+
+MiniBot – Basic Python AI Chatbot
+
+## AI Tool Used
+
+ChatGPT
+
+## Purpose of Using AI
+
+AI was used as a learning and development assistant to help design, understand, improve, and document the basic chatbot project.
+
+## Contributions Made With AI Assistance
+
+### 1. Chatbot Structure
+
+AI helped create the basic structure of the Python chatbot using a function and a continuous `while` loop.
+
+### 2. User Input Handling
+
+AI helped implement user input using Python's `input()` function and convert the input to lowercase for easier comparison.
+
+### 3. Conversation Logic
+
+AI helped create conditional statements using `if`, `elif`, and `else` to allow the chatbot to respond to different user messages.
+
+### 4. Basic Responses
+
+AI assisted in creating responses for:
+
+* Hello / Hi
+* Asking the chatbot's name
+* Asking how the chatbot is doing
+* Asking what the chatbot can do
+* Saying goodbye
+
+### 5. Exit Functionality
+
+AI helped implement the `break` statement so that the chatbot stops when the user enters `bye`.
+
+### 6. Documentation
+
+AI was used to help prepare the README file and explain the project in a simple and understandable way.
+
+## Human Contribution
+
+The project idea, project direction, testing, execution, and understanding of the code were completed by the student. AI was used as a supporting tool for coding assistance and documentation.
+
+## Learning Outcome
+
+Through this project, I learned about:
+
+* Python functions
+* Variables
+* User input
+* Conditional statements
+* Loops
+* String handling
+* Basic chatbot logic
+* Using AI as a programming assistant
+
+## AI Usage Statement
+
+AI was used as an assistance and learning tool. The generated suggestions were reviewed, understood, and adapted for the project.
