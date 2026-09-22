@@ -64,3 +64,7 @@ Through this project, I learned about:
 ## AI Usage Statement
 
 AI was used as an assistance and learning tool. The generated suggestions were reviewed, understood, and adapted for the project.
+
+## SLE-2 AI Contribution
+
+For SLE-2, ChatGPT was used as a learning assistant to help understand and implement BFS and DFS search algorithms, create the benchmark for repeated timing runs, understand node counting, and use py-spy for profiling. The student ran the code, checked the results, and used the measured data in the project report.
