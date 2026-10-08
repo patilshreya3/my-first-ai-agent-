@@ -1,0 +1,30 @@
+# Graph Traversal & Search Engine System (BFS / DFS)
+
+##  Project Overview
+This repository contains the implementation and architectural design of a **Graph Traversal & Search Engine System** designed to execute graph search algorithms—specifically **Breadth-First Search (BFS)** and **Depth-First Search (DFS)**—on structured graphs and adjacency matrices.
+
+The system takes graph nodes, edge connections, and start/target criteria as input, processes traversal order using explicit frontier data structures, tracks visited states, and reconstructs the optimal path or traversal sequence.
+
+---
+
+## System Architecture (C4 Model Overview)
+The architecture follows the **C4 Model** structure to provide clarity from high-level user context down to the low-level code implementation:
+
+1. **Level 1: System Context** – Highlights how the external user interacts with the core Graph Search System to receive output display updates.
+2. **Level 2: Containers** – Breaks the system down into operational modules including the *Input Module*, *Search Engine*, *Graph/Matrix Data Store*, *Visited Nodes Tracker*, and *Output Module*.
+3. **Level 3: Components** – Visualizes the inside of the Search Engine container, showcasing the interaction between the *Frontier Storage (Queue/Stack)*, *Visited Set*, *Target Check*, and *Traversal Path Builder*.
+4. **Level 4: Code** – Outlines core structural classes and functions (`GraphNode`, `GraphSearch`, `bfs_search`, `dfs_search`, and `build_path`).
+
+>  *Detailed breakdown, explanations, and diagrams can be found in the [ARCHITECTURE.md](./ARCHITECTURE.md) file.*
+
+---
+
+##  Core Features & Design Decisions
+* **Modular State Management:** Separating the `Visited Nodes Tracker` from the core queue/stack frontier logic ensures modular state checking with O(1) set lookups.
+* **Infinite Loop Prevention:** Strict tracking prevents duplicate state expansion, minimizing memory overhead during deep graph traversals.
+* **Clean Code Separation:** Clear distinction between data representation wrappers and algorithm execution pipelines.
+
+---
+
+##  Contributions
+For details on human authorship and AI assistance allocations used during the setup of this repository, please refer to the [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) log.
