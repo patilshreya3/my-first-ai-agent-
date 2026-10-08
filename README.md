@@ -1,10 +1,6 @@
-# my-first-ai-agent-
 
-This is my first chatbot.हो 👍 Nano उघडलेला आहे.
 
-आता **README च्या सगळ्या जुन्या मजकुराला खालील मजकुराने replace कर**:
 
-````markdown
 # my-first-ai-agent-
 
 This is my first chatbot.
