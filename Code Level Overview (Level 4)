@@ -1,0 +1,8 @@
+ Code Level Overview (Level 4)
+Main classes / functions:
+- class GraphNode: Represents individual nodes with key values, parent pointers, and neighbor lists.
+- class GraphSearch: Stores adjacency representations and coordinates traversal execution.
+- def bfs_search(graph, start, target): Implements queue-based breadth-first traversal logic.
+- def dfs_search(graph, start, target): Implements stack-based depth-first traversal logic.
+- def build_path(target_node): Backtracks parent pointers to generate the final path.
+
