@@ -1,6 +1,4 @@
-छान 👍 आता `SLE-2-REPORT.md` editor मध्ये open आहे.
 
-आता **हा पूर्ण content copy करून त्या file मध्ये paste कर**:
 
 ````markdown
 # SLE-2 Report: BFS vs DFS Performance Comparison
